@@ -32,14 +32,14 @@ p {
 
 .navigation-links {
   display: flex;
-  margin-top: 40px;
+  margin-top: 20px;
   justify-content: center;
 }
 
 .navigation-links a {
-  margin: 20px;
+  margin: 10px;
   border-radius: 4px;
-  padding: 20px 15px;
+  padding: 15px;
   text-decoration: none;
   text-transform: capitalize;
 }
@@ -87,4 +87,36 @@ p {
 
 .world-clock {
   max-height: 88%;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 15px;
+  }
+
+  .navigation-links {
+    margin-top: 20px;
+  }
+
+  .small-app {
+    margin-top: 15px;
+  }
+
+  .small-app-image {
+    margin-top: 20px;
+  }
+
+  .navigation-links {
+    font-size: 13px;
+    margin-top: 10px;
+    padding: 10px;
+  }
 }
