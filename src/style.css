@@ -32,12 +32,12 @@ p {
 
 .navigation-links {
   display: flex;
-  margin-top: 20px;
+  margin: 15px;
   justify-content: center;
 }
 
 .navigation-links a {
-  margin: 10px;
+  margin: 15px;
   border-radius: 4px;
   padding: 15px;
   text-decoration: none;
@@ -116,7 +116,5 @@ p {
 
   .navigation-links {
     font-size: 13px;
-    margin-top: 10px;
-    padding: 10px;
   }
 }
