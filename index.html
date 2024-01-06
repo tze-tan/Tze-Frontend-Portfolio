@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tze Yi Tan</title>
+    <title>Frontend developer - Tze Yi Tan</title>
+    <meta
+      name="description"
+      content="Check out the latest frontend websites that I've built using CSS, HTML, Javascript, different APIs and some machine learning techniques."
+    />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
@@ -21,12 +25,12 @@
       integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
       <div class="container">
-        <a class="navbar-brand" href="#">Tze Yi Tan</a>
+        <a class="navbar-brand" href="#" title="Tze Yi Tan">Tze Yi Tan</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -41,31 +45,43 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link" href="index.html" title="Homepage">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About me</a>
+              <a class="nav-link" href="about.html" title="Learn more about me"
+                >About me</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html#contact">Contact me</a>
+              <a class="nav-link" href="about.html#contact" title="Contact me"
+                >Contact me</a
+              >
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <h2>👋 Hi I am</h2>
     <h1>Tze Yi Tan</h1>
-    <h3>🇩🇪 Front-end developer, based in Germany</h3>
+    <h2>Hi 👋🏻 I'm a frontend developer</h2>
+    <h3 class="mt-2">based in Munich, Germany 🇩🇪</h3>
     <div class="navigation-links">
-      <a href="about.html#contact" class="contact-link">Contact me</a>
-      <a href="about.html" class="about-link">About me</a>
+      <a href="about.html#contact" class="contact-link" title="Contact"
+        >Contact me</a
+      >
+      <a href="about.html" class="about-link" contact="Learn more about me"
+        >About me</a
+      >
     </div>
 
     <div class="container">
       <div class="row mt-5">
         <div class="col-sm-6">
-          <img src="images/weather-app.png" class="img-fluid rounded" />
+          <img
+            src="images/weather-app.png"
+            class="img-fluid rounded"
+            alt="Weather application with red and white background with a search bar for users to enter desired cities"
+          />
         </div>
         <div class="col-sm-6">
           <h2 class="text-left">Weather App</h2>
@@ -75,7 +91,10 @@
             eos eveniet alias temporibus deserunt veritatis minima fugiat
             explicabo eum dolore.
           </p>
-          <a href="https://tze-weather-app.netlify.app/" class="primary-link"
+          <a
+            href="https://tze-weather-app.netlify.app/"
+            class="primary-link"
+            title="Check out the website"
             >Launch App</a
           >
         </div>
@@ -89,16 +108,27 @@
             eos eveniet alias temporibus deserunt veritatis minima fugiat
             explicabo eum dolore.
           </p>
-          <a href="https://tze-world-clock.netlify.app/" class="primary-link"
+          <a
+            href="https://tze-world-clock.netlify.app/"
+            class="primary-link"
+            title="Check out the website"
             >Launch App</a
           >
         </div>
         <div class="col-sm-6">
-          <img src="images/world-clock-latest.png" class="img-fluid rounded" />
+          <img
+            src="images/world-clock-latest.png"
+            class="img-fluid rounded"
+            alt="Website on a dark green background, showing the current time in Munich, Kuala Lumpur and Melbourne, with a user dropdown to prompt users to select a city"
+          />
         </div>
         <div class="row mt-5">
           <div class="col-sm-6">
-            <img src="images/gsg.gif" class="img-fluid rounded" />
+            <img
+              src="images/gsg.gif"
+              class="img-fluid rounded"
+              alt="Three german sentences are generated based on the input prompt 'chicken', with corresponding English translations"
+            />
           </div>
           <div class="col-sm-6">
             <h2 class="text-left">AI Sentence Generator</h2>
@@ -111,6 +141,7 @@
             <a
               href="https://tze-german-sentence-generator.netlify.app/"
               class="primary-link"
+              title="Check out the website"
               >Launch App</a
             >
           </div>

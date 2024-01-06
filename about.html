@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>About Tze</title>
+    <title>About me - Tze Yi Tan</title>
+    <meta
+      name="description"
+      content="Learn more about my background, professional experience and aspirations"
+    />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
@@ -22,7 +26,7 @@
       integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="style.css" class="stylesheet" />
+    <link rel="stylesheet" href="src/style.css" class="stylesheet" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
@@ -42,42 +46,54 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link" href="index.html" title="Homepage">Home</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="about.html">About me</a>
+              <a class="nav-link" href="about.html" title="Learn more about me"
+                >About me</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html#contact">Contact me</a>
+              <a class="nav-link" href="about.html#contact" title="Contact me"
+                >Contact me</a
+              >
             </li>
           </ul>
         </div>
       </div>
     </nav>
     <h1>About me</h1>
-    <h3>Front-end developer from Munich, Germany</h3>
+    <p class="text-center">Front-end developer from Munich, Germany.</p>
     <div class="container mt-5 mb-3">
       <div class="row">
         <div class="col-sm">
-          <img src="images/gsg.gif" class="img-fluid img-thumbnail" />
+          <img
+            src="images/gsg.gif"
+            class="img-fluid img-thumbnail"
+            alt="Three german sentences are generated based on the input prompt 'chicken', with corresponding English translations"
+          />
         </div>
         <div class="col-sm">
           <img
             src="images/weather-app.png"
             class="img-fluid img-thumbnail weather-app"
+            alt="Weather application with red and white background with a search bar for users to enter desired cities"
           />
         </div>
         <div class="col-sm">
           <img
             src="images/world-clock-latest.png"
             class="img-fluid img-thumbnail world-clock"
+            alt="Website on a dark green background, showing the current time in Munich, Kuala Lumpur and Melbourne, with a user dropdown to prompt users to select a city"
           />
         </div>
       </div>
     </div>
     <div id="contact">
       <h2>📮 Contact me</h2>
-      <a href="mailto:[email]" class="email-link"> tzeyi.tan@outlook.com </a>
+      <a href="mailto:[email]" class="email-link" title="Contact me by email">
+        tzeyi.tan@outlook.com
+      </a>
     </div>
   </body>
 </html>
